@@ -10,6 +10,7 @@ board=[[0,0,0,0,0,0,0,0,0],
 for row in range (0,9):
     for column in range (0,9):
         while True:
+            print("Enter 0 to show empty box")
             z=int(input("Row-{},Column-{}: ".format(row+1,column+1)))
             if z>9 or z<0:
                 print("Wrong input!! (0 to 9 only!!)")
